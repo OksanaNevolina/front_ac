@@ -4,12 +4,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(135deg, #0721a1, #eeff7f); /* Плавний градієнт */
+    background: linear-gradient(135deg, #0721a1, #eeff7f);
     color: white;
-    padding: 30px 15px; /* Зменшено відступи */
+    padding: 30px 15px;
     text-align: center;
-    border-bottom: 4px solid #003d6b; /* Трохи менший бордер */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Зменшено тінь */
+    border-bottom: 4px solid #003d6b;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
     transition: transform 0.5s ease, box-shadow 0.3s ease-in-out;
@@ -24,13 +24,13 @@
 }
 
 .logo {
-    font-size: 48px; /* Зменшено шрифт */
-    font-weight: 700; /* Легке зменшення ваги */
-    letter-spacing: 1.5px; /* Трохи менший інтервал */
-    text-transform: uppercase; /* Замінено text-transform на uppercase */
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    margin-bottom: 15px; /* Менший відступ */
+    margin-bottom: 15px;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     text-shadow: 1.5px 1.5px 4px rgba(0, 0, 0, 0.2); /* Тіні стали менш помітними */
 }
@@ -41,8 +41,8 @@
     line-height: 1.3;
     color: #655d33;
     background: linear-gradient(90deg, #bfdbf8, #e9ecef);
-    padding: 15px 25px; /* Зменшено відступи */
-    border-radius: 10px; /* Трохи менший радіус */
+    padding: 15px 25px;
+    border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -57,19 +57,19 @@
 
 .infoText span {
     color: #1c77c3;
-    font-weight: 600; /* Легке зменшення ваги */
+    font-weight: 600;
 }
 
 .logo:hover {
-    color: #eeff7f; /* Жовтий при наведенні */
-    transform: scale(1.05); /* Зменшено масштаб при наведенні */
+    color: #eeff7f;
+    transform: scale(1.05);
 }
 
-/* Меню */
+
 .navMenu {
     list-style: none;
     display: flex;
-    gap: 25px; /* Зменшено інтервал між пунктами */
+    gap: 25px;
     padding: 0;
     margin: 0;
     animation: menuSlideIn 1s ease-out;
@@ -79,7 +79,7 @@
 @keyframes menuSlideIn {
     0% {
         opacity: 0;
-        transform: translateY(15px); /* Зменшено початкове зсування */
+        transform: translateY(15px);
     }
     100% {
         opacity: 1;
@@ -89,11 +89,11 @@
 
 .navMenu a {
     text-decoration: none;
-    font-size: 18px; /* Зменшено шрифт */
-    font-weight: 500; /* Легке зменшення ваги */
+    font-size: 18px;
+    font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 1.5px; /* Зменшено інтервал */
+    letter-spacing: 1.5px;
     position: relative;
     transition: color 0.3s ease, transform 0.3s ease;
     display: inline-block;
@@ -113,30 +113,30 @@
 
 .navMenu a:hover {
     color: #f8a100;
-    transform: translateY(-3px); /* Зменшено відстань при наведенні */
+    transform: translateY(-3px);
 }
 
 .navMenu a:hover::after {
     width: 100%;
 }
 
-/* Стиль при мобільному відображенні */
+
 @media (max-width: 768px) {
     .header {
-        padding: 30px 15px; /* Зменшено відступи */
+        padding: 30px 15px;
     }
 
     .logo {
-        font-size: 20px; /* Зменшено шрифт */
+        font-size: 20px;
         letter-spacing: 1px;
     }
 
     .navMenu {
         flex-direction: column;
-        gap: 15px; /* Зменшено інтервал */
+        gap: 15px;
     }
 
     .navMenu a {
-        font-size: 16px; /* Зменшено шрифт */
+        font-size: 16px;
     }
 }
