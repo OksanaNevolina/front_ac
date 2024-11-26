@@ -17,7 +17,7 @@
     box-shadow: 0 35px 70px rgba(0, 0, 0, 0.1);
 }
 
-/* Ліва частина */
+
 .leftSide {
     width: 60%;
     padding: 20px;
@@ -34,7 +34,7 @@
 
 .heading,
 .subheading {
-    font-size: 3rem; /* Використано rem для гнучкості */
+    font-size: 3rem;
     font-weight: 700;
     color: #333;
     text-align: left;
@@ -45,7 +45,7 @@
 }
 
 .description {
-    font-size: 1.125rem; /* Замінили px на rem */
+    font-size: 1.125rem;
     color: #666;
     line-height: 1.7;
     margin-bottom: 20px;
@@ -83,9 +83,9 @@
     font-size: 1.25rem;
 }
 
-/* Правая частина */
+
 .rightSide {
-    font-size: 2.25rem; /* Використано rem */
+    font-size: 2.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@
 }
 
 .purchaseText {
-    font-size: 1.25rem; /* Використано rem */
+    font-size: 1.25rem;
     color: #e0e0e0;
     margin-bottom: 30px;
     transition: color 0.3s ease;
@@ -141,7 +141,7 @@
 }
 
 .guarantee {
-    font-size: 1.125rem; /* Використано rem */
+    font-size: 1.125rem;
     color: #e6e6e6;
     margin-top: 20px;
     font-weight: 500;
@@ -152,7 +152,7 @@
     color: #fff;
 }
 
-/* Адаптивність для мобільних пристроїв */
+
 @media (max-width: 768px) {
     .mainContent {
         flex-direction: column;
@@ -166,7 +166,7 @@
 
     .heading,
     .subheading {
-        font-size: 2rem; /* Тепер шрифт буде адаптований */
+        font-size: 2rem;
     }
 
     .description {
@@ -174,15 +174,15 @@
     }
 
     .buyButton {
-        font-size: 1.125rem; /* Шрифт буде меншим */
+        font-size: 1.125rem;
         padding: 12px 30px;
     }
 
     .purchaseText {
-        font-size: 1.125rem; /* Розмір шрифту зменшено */
+        font-size: 1.125rem;
     }
 
     .guarantee {
-        font-size: 1rem; /* Адаптовано до мобільних пристроїв */
+        font-size: 1rem;
     }
 }
