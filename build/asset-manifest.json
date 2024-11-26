@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/front_ac/static/css/main.72bea966.css",
-    "main.js": "/front_ac/static/js/main.c08f19b1.js",
+    "main.js": "/front_ac/static/js/main.496a446b.js",
     "static/media/1626310578_24-kartinkin-com-p-fon-dlya-lendinga-krasivo-27.jpg": "/front_ac/static/media/1626310578_24-kartinkin-com-p-fon-dlya-lendinga-krasivo-27.ed412ca9e43b05d2004d.jpg",
     "index.html": "/front_ac/index.html",
     "main.72bea966.css.map": "/front_ac/static/css/main.72bea966.css.map",
-    "main.c08f19b1.js.map": "/front_ac/static/js/main.c08f19b1.js.map"
+    "main.496a446b.js.map": "/front_ac/static/js/main.496a446b.js.map"
   },
   "entrypoints": [
     "static/css/main.72bea966.css",
-    "static/js/main.c08f19b1.js"
+    "static/js/main.496a446b.js"
   ]
 }
