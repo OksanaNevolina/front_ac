@@ -2,7 +2,7 @@
 .mainContent {
     display: flex;
     justify-content: space-between;
-    padding: 100px 40px;
+    padding: 100px 5vw;
     background-color: #f4f7fb;
     max-width: 1400px;
     margin: 0 auto;
@@ -34,7 +34,7 @@
 
 .heading,
 .subheading {
-    font-size: 40px;
+    font-size: 3rem; /* Використано rem для гнучкості */
     font-weight: 700;
     color: #333;
     text-align: left;
@@ -45,7 +45,7 @@
 }
 
 .description {
-    font-size: 18px;
+    font-size: 1.125rem; /* Замінили px на rem */
     color: #666;
     line-height: 1.7;
     margin-bottom: 20px;
@@ -61,7 +61,7 @@
 .results {
     list-style-type: none;
     padding: 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #333;
     margin-bottom: 20px;
 }
@@ -80,12 +80,12 @@
     position: absolute;
     left: 0;
     color: #549ae7;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-/* Правая часть */
+/* Правая частина */
 .rightSide {
-    font-size: 36px;
+    font-size: 2.25rem; /* Використано rem */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,7 +107,7 @@
 }
 
 .purchaseText {
-    font-size: 20px;
+    font-size: 1.25rem; /* Використано rem */
     color: #e0e0e0;
     margin-bottom: 30px;
     transition: color 0.3s ease;
@@ -119,7 +119,7 @@
 
 .buyButton {
     padding: 15px 40px;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 600;
     background-color: #f8a100;
     color: #333;
@@ -141,7 +141,7 @@
 }
 
 .guarantee {
-    font-size: 18px;
+    font-size: 1.125rem; /* Використано rem */
     color: #e6e6e6;
     margin-top: 20px;
     font-weight: 500;
@@ -166,23 +166,23 @@
 
     .heading,
     .subheading {
-        font-size: 24px;
+        font-size: 2rem; /* Тепер шрифт буде адаптований */
     }
 
     .description {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .buyButton {
-        font-size: 20px;
+        font-size: 1.125rem; /* Шрифт буде меншим */
         padding: 12px 30px;
     }
 
     .purchaseText {
-        font-size: 18px;
+        font-size: 1.125rem; /* Розмір шрифту зменшено */
     }
 
     .guarantee {
-        font-size: 14px;
+        font-size: 1rem; /* Адаптовано до мобільних пристроїв */
     }
 }
