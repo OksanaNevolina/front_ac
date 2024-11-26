@@ -1,22 +1,22 @@
 .courseInfo {
-    margin-top: 15px;
-    padding: 50px 20px;
+    margin-top: 10px;
+    padding: 40px 15px;
     background: linear-gradient(135deg, #f9f9f9, #ffffff);
     text-align: center;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: #003d6b;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
 .blocksContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -24,44 +24,44 @@
     background: #1c77c3;
     color: white;
     border-radius: 10px;
-    padding: 20px 15px;
-    flex: 1 1 calc(25% - 20px);
-    max-width: calc(25% - 20px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 15px 12px;
+    flex: 1 1 calc(33.33% - 15px);
+    max-width: calc(33.33% - 15px);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
 
 .categoryBlock h3 {
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .categoryBlock p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
 .categoryBlock:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .conclusionBlock {
-    margin-top: 40px;
+    margin-top: 30px;
     background: #f8a100;
     color: white;
-    padding: 30px 20px;
+    padding: 25px 15px;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
     animation: fadeIn 1s ease;
 }
 
 .conclusionBlock p {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.8;
 }
@@ -72,7 +72,19 @@
         max-width: 100%;
     }
 
-    .conclusionBlock p {
+    .title {
+        font-size: 30px;
+    }
+
+    .categoryBlock h3 {
+        font-size: 20px;
+    }
+
+    .categoryBlock p {
         font-size: 16px;
+    }
+
+    .conclusionBlock p {
+        font-size: 14px;
     }
 }
