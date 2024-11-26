@@ -1,0 +1,143 @@
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(135deg, #0721a1, #eeff7f); /* Плавний градієнт */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 6px solid #003d6b;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.3s ease-in-out;
+    height: auto;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.header:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo {
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform:full-width ;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.infoText {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #655d33;
+    background: linear-gradient(90deg, #bfdbf8, #e9ecef);
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.infoText:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.infoText span {
+    color: #1c77c3;
+    font-weight: 700;
+}
+
+
+.logo:hover {
+    color: #eeff7f; /* Жовтий при наведенні */
+    transform: scale(1.1);
+}
+
+/* Меню */
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
+    animation: menuSlideIn 1s ease-out;
+}
+
+/* Анімація для меню */
+@keyframes menuSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.navMenu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.navMenu a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #f8a100;
+    bottom: -5px;
+    left: 50%;
+    transition: all 0.3s;
+    transform: translateX(-50%);
+}
+
+.navMenu a:hover {
+    color: #f8a100;
+    transform: translateY(-5px);
+}
+
+.navMenu a:hover::after {
+    width: 100%;
+}
+
+/* Стиль при мобільному відображенні */
+@media (max-width: 768px) {
+    .header {
+        padding: 40px 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .navMenu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navMenu a {
+        font-size: 18px;
+    }
+}
