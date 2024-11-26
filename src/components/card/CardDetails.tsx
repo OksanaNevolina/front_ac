@@ -6,7 +6,7 @@ const CardDetails: React.FC = () => {
         <div className={styles.cardDetails}>
             <h3 className={styles.title}>Реквізити для переказу</h3>
             <div className={styles.cardInfo}>
-                <p><strong>Номер картки:</strong> <span className={styles.cardNumber}>1234 5678 9012 3456</span></p>
+                <p><strong>Номер картки:</strong> <span className={styles.cardNumber}>4441 1110 5500 4315</span></p>
 
             </div>
             <div className={styles.cardInfo}>
