@@ -39,13 +39,6 @@ const ActiveCampaignPage: React.FC = () => {
                         </p>
                     </div>
                     <div className="feature-item">
-                        <h3>Аналітика</h3>
-                        <p>
-                            Вбудовані звіти, які показують ефективність ваших кампаній та автоматизацій. Аналіз
-                            конверсій, відкриттів листів, продажів та інших показників.
-                        </p>
-                    </div>
-                    <div className="feature-item">
                         <h3>Інтеграції</h3>
                         <p>
                             ActiveCampaign підтримує інтеграцію з більш ніж 900 платформами, включаючи Shopify, Facebook
@@ -64,7 +57,6 @@ const ActiveCampaignPage: React.FC = () => {
                             налаштовувати CRM та запускати маркетингові кампанії вже з перших днів.
                         </p>
                     </div>
-
                 </div>
             </section>
 
@@ -80,6 +72,22 @@ const ActiveCampaignPage: React.FC = () => {
                 <p className="cta-text">
                     ActiveCampaign — це ваш універсальний помічник, який допоможе зробити більше за менших витрат часу.
                 </p>
+            </section>
+
+            <section className="automation-section">
+                <h2 className="section-title">Приклад автоматизації, яку можна створити</h2>
+                <h2 className="section-title">Привітання нового підписника</h2>
+                <ol className="automation-steps">
+                    <li><strong>Тригер:</strong> Підписка на розсилку через форму.</li>
+                    <li><strong>Дія 1:</strong> Надіслати лист "Привітання та ознайомлення".</li>
+                    <li><strong>Дія 2:</strong> Додати тег "Новий підписник".</li>
+                    <li><strong>Дія 3:</strong> Чекати 2 дні.</li>
+                    <li><strong>Дія 4:</strong> Надіслати лист з корисними матеріалами.</li>
+                    <li><strong>Дія 5:</strong> Чекаємо 1 день.</li>
+                    <li><strong>Дія 6:</strong> Якщо контакт відкрив лист, додати тег "Активний підписник".</li>
+                    <li><strong>Дія 7:</strong> Якщо не відкрив, надіслати нагадування через 3 дні.</li>
+                </ol>
+                    <p className="section-title">Така автоматизація дозволить вам ефективно взаємодіяти з новими підписниками, відправляти привітальні листи, додавати теги на основі взаємодії та робити нагадування для неактивних контактів.</p>
             </section>
         </div>
     );

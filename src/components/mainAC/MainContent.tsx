@@ -29,6 +29,11 @@ const MainContent: React.FC = () => {
             <div className={styles.rightSide}>
                 <h2 className={styles.heading}>Придбати курс за </h2>
                 <p>799 грн</p>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => handleCardPayment()}>
+                        Оплатити карткою
+                    </button>
+                </div>
                 <p className={styles.purchaseText}>
                     Курс <strong>ActiveCampaign</strong> українською мовою містить теоретичний та практичний матеріал.
                     <br/>
@@ -37,11 +42,6 @@ const MainContent: React.FC = () => {
                     <strong>Навчайся коли зручно!</strong>
                 </p>
 
-                <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => handleCardPayment()}>
-                        Оплатити карткою
-                    </button>
-                </div>
             </div>
         </section>
     );
