@@ -4,7 +4,7 @@ import styles from './CourseInfo.module.css';
 const CourseInfo: React.FC = () => {
     return (
         <section className={styles.courseInfo}>
-            <h2 className={styles.title}>Цей курс буде цікавим і корисним для:</h2>
+            <h2 className={styles.title}>Буде цікаво і корисно для:</h2>
             <div className={styles.blocksContainer}>
                 <div className={styles.categoryBlock}>
                     <h3>Новачків</h3>

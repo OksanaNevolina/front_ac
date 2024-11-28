@@ -20,6 +20,9 @@ const Header: React.FC = () => {
                     <li>
                         <a href="https://t.me/Oksana_Nevolina"target="_blank">Написати в Telegram</a>
                     </li>
+                    <li>
+                        <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Зареєтруватися в ActiveCampaign </a>
+                    </li>
                 </ul>
             </nav>
         </header>
