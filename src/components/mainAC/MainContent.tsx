@@ -32,8 +32,9 @@ const MainContent: React.FC = () => {
                 <p className={styles.purchaseText}>
                     Курс <strong>ActiveCampaign</strong> українською мовою містить теоретичний та практичний матеріал.
                     <br/>
+                    <p>ДЛЯ САМОСТІЙНОГО ВИВЧЕННЯ</p>
                     <br/>
-                    <strong>Вивчайте у зручний час!</strong>
+                    <strong>Навчайся коли зручно!</strong>
                 </p>
 
                 <div className={styles.paymentForm}>
