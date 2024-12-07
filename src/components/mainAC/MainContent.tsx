@@ -32,7 +32,9 @@ const MainContent: React.FC = () => {
             </div>
 
             <div className={styles.rightSide}>
-                <h5> Вивчай<strong>ActiveCampaign</strong> українською мовою</h5>
+                <h6> Вивчай <strong> ActiveCampaign</strong>
+                    <hr/>
+                    українською мовою</h6>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
                         Огляд інтерфейсу ActiveCampaign
@@ -40,47 +42,47 @@ const MainContent: React.FC = () => {
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                       Модуль  Contacts
+                        Contacts
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Automations
+                        Automations
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Deals
+                        Deals
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Website
+                        Website
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Reports
+                        Reports
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Unlock Features
+                        Unlock Features
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Get Help
+                        Get Help
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Apps
+                        Apps
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
                     <button className={styles.buyButton} onClick={() => lookInterface ()}>
-                        Модуль Settings
+                        Settings
                     </button>
                 </div>
 
