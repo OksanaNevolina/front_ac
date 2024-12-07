@@ -10,7 +10,7 @@ const InterfaceACPage: React.FC = () => {
     return (
         <div className={styles.container}>
             <h3 className={styles.title}>Детальний опис інтерфейсу ActiveCampaign на основі зображення:</h3>
-            <img className={styles.moduleList} src={dashboardImg} alt="oгляд інтерфейсу"/>
+            <img className={styles.dashboard} src={dashboardImg} alt="oгляд інтерфейсу"/>
             <div className={styles.moduleList}>
                 <div className={styles.module}>
                     <h2 className={styles.moduleTitle}>Ліва панель навігації:</h2>

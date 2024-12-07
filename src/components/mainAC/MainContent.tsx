@@ -38,6 +38,51 @@ const MainContent: React.FC = () => {
                         Огляд інтерфейсу ActiveCampaign
                     </button>
                 </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                       Модуль  Contacts
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Automations
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Deals
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Website
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Reports
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Unlock Features
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Get Help
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Apps
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Модуль Settings
+                    </button>
+                </div>
 
 
             </div>
