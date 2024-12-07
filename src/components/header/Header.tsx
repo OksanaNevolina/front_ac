@@ -7,6 +7,7 @@ const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>ActiveCampaign УКРАЇНСЬКОЮ МОВОЮ</div>
+            <div className={styles.logo}>Платформа для автоматизації маркетингу</div>
             <p className={styles.infoText}>
                 <span>ActiveCampaign</span> об'єднує інструменти автоматизації маркетингу, CRM, та конструктора сторінок
                 в одну зручну платформу.
@@ -22,6 +23,9 @@ const Header: React.FC = () => {
                     </li>
                     <li>
                         <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Зареєтруватися в ActiveCampaign </a>
+                    </li>
+                    <li>
+                        <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Дивитися навчальні відео</a>
                     </li>
                 </ul>
             </nav>

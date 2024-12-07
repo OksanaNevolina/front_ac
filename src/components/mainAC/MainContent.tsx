@@ -2,12 +2,18 @@ import React from 'react';
 import styles from './MainContent.module.css';
 import {useNavigate} from "react-router-dom";
 
+
 const MainContent: React.FC = () => {
     const navigate = useNavigate();
 
 
     const handleCardPayment = () => {
         navigate('/card');
+    };
+
+
+    const lookInterface = () => {
+        navigate('/interfaceAC');
     };
 
     return (
@@ -26,26 +32,19 @@ const MainContent: React.FC = () => {
             </div>
 
             <div className={styles.rightSide}>
-                <h2 className={styles.heading}>Придбати курс за </h2>
-                <p>799 грн</p>
+                <h5> Вивчай<strong>ActiveCampaign</strong> українською мовою</h5>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => handleCardPayment()}>
-                        Оплатити карткою
+                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                        Огляд інтерфейсу ActiveCampaign
                     </button>
                 </div>
-                <p className={styles.purchaseText}>
-                    Курс <strong>ActiveCampaign</strong> українською мовою містить теоретичний та практичний матеріал.
-                    <br/>
-                    <p>ДЛЯ САМОСТІЙНОГО ВИВЧЕННЯ</p>
-                    <br/>
-                    <strong>Навчайся коли зручно!</strong>
-                </p>
+
 
             </div>
         </section>
     );
 };
 
-export { MainContent };
+export {MainContent};
 
 

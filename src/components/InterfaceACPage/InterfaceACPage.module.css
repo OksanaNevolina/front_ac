@@ -1,0 +1,126 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #bdecf6;
+    color: #333;
+}
+
+.title {
+    font-size: 28px;
+    color: #0760c9;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.moduleList {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.module {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.moduleTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.moduleDescription {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+.infoButton {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    background-color: #3823ee;
+    color: white;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.infoButton:hover {
+    background-color: #ffb800;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.infoButton:focus {
+    outline: none;
+}
+.navMenu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e2f;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.navMenu li {
+    position: relative;
+}
+
+.navMenu a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navMenu a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(176, 210, 246, 0.5);
+}
+
+.navMenu a:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgb(238, 255, 127);
+}
+
+.navMenu li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 4px;
+    height: 4px;
+    background-color: #007bff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navMenu li:hover::before {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.5);
+}
+
