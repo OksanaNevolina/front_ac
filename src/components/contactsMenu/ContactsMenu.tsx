@@ -6,7 +6,7 @@ const ContactsMenu: React.FC = () => {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Меню Contacts</h1>
+            <h1 className={styles.title}>Модуль Contacts в ActiveCampaign</h1>
             {menuData.map((item, index) => (
                 <div key={index} className={styles.section}>
                     <h2 className={styles.sectionTitle}>{item.title}</h2>

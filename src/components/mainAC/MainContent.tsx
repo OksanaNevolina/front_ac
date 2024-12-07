@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './MainContent.module.css';
 import {useNavigate} from "react-router-dom";
+import Automations from "../automations/Automations";
+import Deals from "../deals/Deals";
+import UnlockFeatures from "../unlockFeatures/UnlockFeatures";
 
 
 const MainContent: React.FC = () => {
@@ -11,9 +14,50 @@ const MainContent: React.FC = () => {
         navigate('/card');
     };
 
-
     const lookInterface = () => {
         navigate('/interfaceAC');
+    };
+    const lookContacts = () => {
+        navigate('/сontacts-menu');
+    };
+    const lookCampaigns = () => {
+        navigate('/campaigns-menu');
+    };
+    const lookAutomations = () => {
+        navigate('/automations-menu');
+    };
+    const lookDeals = () => {
+        navigate('/deals-menu');
+    };
+
+    const lookWebsite = () => {
+        navigate("/website-menu");
+    };
+
+    const lookReports = () => {
+        navigate('/reports-menu');
+    };
+
+    const lookUnlockFeatures = () => {
+        navigate('/unlockFeatures-menu');
+    };
+
+
+    const lookGetHelp = () => {
+        navigate('/get-help-menu');
+    };
+
+
+
+    const lookApps = () => {
+        navigate('/apps-menu');
+    };
+
+
+
+
+    const lookSettings = () => {
+        navigate("/settings-menu");
     };
 
     return (
@@ -41,47 +85,52 @@ const MainContent: React.FC = () => {
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookContacts ()}>
                         Contacts
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookCampaigns ()}>
+                        Campaigns
+                    </button>
+                </div>
+                <div className={styles.paymentForm}>
+                    <button className={styles.buyButton} onClick={() => lookAutomations ()}>
                         Automations
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookDeals ()}>
                         Deals
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookWebsite ()}>
                         Website
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookReports ()}>
                         Reports
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookUnlockFeatures()}>
                         Unlock Features
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookGetHelp ()}>
                         Get Help
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookApps ()}>
                         Apps
                     </button>
                 </div>
                 <div className={styles.paymentForm}>
-                    <button className={styles.buyButton} onClick={() => lookInterface ()}>
+                    <button className={styles.buyButton} onClick={() => lookSettings ()}>
                         Settings
                     </button>
                 </div>

@@ -1,0 +1,74 @@
+{
+  "title": "Apps в ActiveCampaign",
+  "description": "Цей модуль створений для інтеграції ActiveCampaign з іншими платформами, забезпечуючи гнучкість роботи та додаткову функціональність через готові інтеграції або кастомні рішення.",
+  "sections": [
+    {
+      "title": "Основні розділи",
+      "items": [
+        {
+          "name": "Connected Apps",
+          "description": [
+            "Список усіх підключених додатків, які інтегровані з вашим обліковим записом ActiveCampaign.",
+            "Переглянути активні інтеграції.",
+            "Редагувати налаштування або відключити непотрібні додатки."
+          ]
+        },
+        {
+          "name": "All Apps",
+          "description": [
+            "Каталог усіх доступних додатків для інтеграції.",
+            "Ви можете знайти додатки за категоріями або за допомогою пошуку."
+          ]
+        },
+        {
+          "name": "App Studio",
+          "description": [
+            "Розділ для розробників і бізнесів, які хочуть створювати власні додатки або інтеграції для ActiveCampaign.",
+            "Доступна документація та інструменти для створення кастомних рішень."
+          ]
+        },
+        {
+          "name": "Popular Apps",
+          "description": [
+            "Найпопулярніші інтеграції, які користувачі ActiveCampaign використовують найчастіше (наприклад, Shopify, Zapier, Google Analytics)."
+          ]
+        },
+        {
+          "name": "Newest Apps",
+          "description": [
+            "Нові додатки, нещодавно додані до платформи, що включають оновлення та інновації."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Категорії додатків",
+      "categories": [
+        "Account-Based Marketing",
+        "Advertising",
+        "Analytics & Reporting",
+        "Call Tracking",
+        "CRM",
+        "Data Management",
+        "Developer Tools",
+        "E-Sign & Documents",
+        "Ecommerce & Loyalty",
+        "Education",
+        "Events & Meetings",
+        "Finance & HR",
+        "Forms & Surveys",
+        "Lead Generation",
+        "Live Chat Messaging",
+        "Other",
+        "Payments",
+        "Project Management",
+        "Sales",
+        "SMS",
+        "Social Media",
+        "Support",
+        "Website & CMS",
+        "Workflow Connectors"
+      ]
+    }
+  ]
+}

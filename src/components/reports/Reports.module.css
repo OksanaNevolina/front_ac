@@ -1,0 +1,53 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #1e40af;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+    font-size: 1.8rem;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.description {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    font-size: 1.1rem;
+    color: #374151;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.listItem::before {
+    content: "•";
+    color: #2563eb;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    top: 0;
+    line-height: 1.2;
+}

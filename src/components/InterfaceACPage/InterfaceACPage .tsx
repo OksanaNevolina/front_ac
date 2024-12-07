@@ -61,8 +61,6 @@ const InterfaceACPage: React.FC = () => {
                 </div>
 
             </div>
-            <hr/>
-            <h3 className={styles.title}>Більш детальна інформаці про кожен модуль:</h3>
             <nav>
                 <ul className={styles.navMenu}>
                     <li>
@@ -84,7 +82,7 @@ const InterfaceACPage: React.FC = () => {
                         <Link to="/reports-menu">Reports</Link>
                     </li>
                     <li>
-                        <Link to="/unlock-features-menu">Unlock Features</Link>
+                        <Link to="/unlockFeatures-menu">Unlock Features</Link>
                     </li>
                     <li>
                         <Link to="/get-help-menu">Get Help</Link>
@@ -101,4 +99,4 @@ const InterfaceACPage: React.FC = () => {
     )
 };
 
-export default InterfaceACPage;
+export {InterfaceACPage};
