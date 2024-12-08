@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                         <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Зареєтруватися в ActiveCampaign </a>
                     </li>
                     <li>
-                        <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Дивитися навчальні відео</a>
+                        <a href="https://www.youtube.com/watch?v=3yLt42kjoDk&list=PL88T5vCK46X5yLV9PXiiGyAyEhZCwt3-d">Дивитися навчальні відео</a>
                     </li>
                 </ul>
             </nav>

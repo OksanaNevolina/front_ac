@@ -42,7 +42,7 @@ const App: React.FC = () => {
                 <Route path="/сontacts" element={<ContactsModuleD />} />
                 <Route path="/сontacts-accounts" element={<AccountsModuleD/>} />
                 <Route path="/сontacts-lists" element={<Lists/>} />
-                <Route path="/сontacts-manage" element={<Segments/>} />
+                <Route path="/сontacts-Segments" element={<Segments/>} />
                 <Route path="/сontacts-tags" element={<Tags/>} />
                 <Route path="/сontacts-fields" element={<Fields/>} />
             </Routes>

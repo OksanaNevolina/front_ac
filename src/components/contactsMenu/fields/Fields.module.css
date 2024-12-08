@@ -3,7 +3,7 @@
     max-width: 60%;
     margin: 0 auto;
     padding: 10px;
-    background-color: #ced6e1;
+    background-color: #ebeef1;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -13,7 +13,7 @@
 .title {
     font-size: 20px;
     font-weight: 500;
-    color: #2d3436;
+    color: #01171e;
     text-align: center;
     margin-bottom: 10px;
     text-transform: uppercase;

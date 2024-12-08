@@ -204,14 +204,14 @@
 }
 
 .description {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.2;
     color: #555;
     margin-bottom: 20px;
 }
 
 .highlight {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color: #007bff;
     margin-bottom: 20px;
@@ -220,11 +220,11 @@
 
 .registerLink {
     display: inline-block;
-    width: 93.2%;
+    width: 93%;
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 13px;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
@@ -235,11 +235,11 @@
 }
 
 .registrationSteps {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .stepsTitle {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: #090434;
     margin-bottom: 15px;

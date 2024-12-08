@@ -19,7 +19,7 @@ const ContactsMenu: React.FC = () => {
                         <Link to="/сontacts-lists">Lists</Link>
                     </li>
                     <li>
-                        <Link to="/сontacts-manage">Segments</Link>
+                        <Link to="/сontacts-Segments">Segments</Link>
                     </li>
                     <li>
                         <Link to="/сontacts-tags">Tags</Link>
