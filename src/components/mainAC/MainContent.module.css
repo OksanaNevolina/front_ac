@@ -18,11 +18,11 @@
 }
 
 .leftSide {
-    width: 60%;
+    width: 35%;
     padding: 5px;
-    background-color: #fff;
+    background-color: #eaedf1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 15px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -33,8 +33,8 @@
 
 .heading,
 .subheading {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 600;
     color: #333;
     text-align: left;
     margin-bottom: 15px;
@@ -89,10 +89,10 @@
     justify-content: center;
     align-items: center;
     width: 35%;
-    padding: 5px;
-    background-color: #549ae7;
+    padding: 1px;
+    background-color: #eaedf1;
     color: #fac606;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     text-align: center;
     position: relative;
@@ -112,7 +112,7 @@
 }
 
 .purchaseText:hover {
-    color: #f8a100;
+    color: #f3d9aa;
 }
 
 .buyButton {
@@ -185,4 +185,76 @@
     .guarantee {
         font-size: 0.9rem;
     }
+}
+.container {
+    max-width: 35%;
+    border-radius: 15px;
+    background-color: #eff1f5;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #06012a;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registerLink {
+    display: inline-block;
+    width: 93.2%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.registerLink:hover {
+    background-color: #0056b3;
+}
+
+.registrationSteps {
+    margin-top: 30px;
+}
+
+.stepsTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #090434;
+    margin-bottom: 15px;
+}
+
+.stepsList {
+    list-style: decimal;
+    margin-left: 10px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.finalNote {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #111121;
 }
