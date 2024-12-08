@@ -1,0 +1,62 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sectionTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.features, .examples, .benefits {
+    margin-bottom: 30px;
+}
+
+.featureItem, .exampleItem, .benefitItem {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.tableSection {
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #2980b9;
+}
+
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}

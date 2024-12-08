@@ -14,6 +14,12 @@ import UnlockFeatures from "./components/unlockFeatures/UnlockFeatures";
 import GetHelp from "./components/getHelp/GetHelp";
 import AppsModule from "./components/apps/AppsModule";
 import SettingsModule from "./components/settingsModule/SettingsModule";
+import ContactsModuleD from "./components/contactsMenu/contactsModuleD/ContactsModuleD";
+import AccountsModuleD from "./components/contactsMenu/accountsModuleD/AccountsModuleD";
+import Lists from "./components/contactsMenu/lists/Lists";
+import Segments from "./components/contactsMenu/segments/Segments";
+import Tags from "./components/contactsMenu/tags/Tags";
+import Fields from "./components/contactsMenu/fields/Fields";
 
 const App: React.FC = () => {
     return (
@@ -33,6 +39,12 @@ const App: React.FC = () => {
                 <Route path="/get-help-menu" element={<GetHelp />} />
                 <Route path="/apps-menu" element={<AppsModule />} />
                 <Route path="/settings-menu" element={<SettingsModule />} />
+                <Route path="/сontacts" element={<ContactsModuleD />} />
+                <Route path="/сontacts-accounts" element={<AccountsModuleD/>} />
+                <Route path="/сontacts-lists" element={<Lists/>} />
+                <Route path="/сontacts-manage" element={<Segments/>} />
+                <Route path="/сontacts-tags" element={<Tags/>} />
+                <Route path="/сontacts-fields" element={<Fields/>} />
             </Routes>
         </HashRouter>
     );
