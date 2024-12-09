@@ -69,7 +69,6 @@
     display: flex;
     gap: 20px;
     list-style: none;
-    padding: 0;
     margin: 0;
     background-color: #1e1e2f;
     border-radius: 10px;
@@ -128,3 +127,28 @@
     height: 100%;
 }
 
+@media (max-width: 768px) {
+    .navMenu {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .navMenu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navMenu a {
+        font-size: 1rem;
+        padding: 8px 15px;
+        border-radius: 3px;
+    }
+
+    .dashboard {
+        padding: 10px;
+        background-color: #f0f0f5;
+        height: auto;
+    }
+}
