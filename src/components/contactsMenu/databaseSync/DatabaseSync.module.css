@@ -1,0 +1,107 @@
+
+.container {
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    color: #4a90e2;
+}
+
+.header p {
+    font-size: 0.75em;
+    color: #555;
+}
+
+.featuresSection,
+.benefitsSection {
+    margin-bottom: 30px;
+}
+
+.featureCard {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.featureCard h3 {
+    font-size: 0.75em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.featureCard ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.benefitsSection ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.benefitsSection li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .featureCard {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    .featureCard h3 {
+        font-size: 1.3em;
+    }
+
+    .benefitsSection ul {
+        padding-left: 15px;
+    }
+
+    .benefitsSection li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header p {
+        font-size: 0.9em;
+    }
+
+    .featureCard {
+        padding: 10px;
+    }
+
+    .featureCard h3 {
+        font-size: 1.2em;
+    }
+
+    .benefitsSection li {
+        font-size: 0.8em;
+    }
+}
