@@ -1,0 +1,95 @@
+/* ManageScoring.module.css */
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+.overview {
+    margin-bottom: 40px;
+}
+
+.features,
+.scoringTypes,
+.rulePanel,
+.instructions,
+.benefits {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature, .scoringType, .panelItem, .instruction {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.types {
+    margin-top: 20px;
+}
+
+.type {
+    margin-bottom: 15px;
+}
+
+.panelItem h3 {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.instructions h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.benefits ul {
+    padding-left: 20px;
+}
+
+.benefits li {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .feature, .scoringType, .panelItem, .instruction {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+
+    .benefits li {
+        font-size: 14px;
+    }
+}

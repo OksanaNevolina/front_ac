@@ -28,7 +28,7 @@ const ContactsMenu: React.FC = () => {
                         <Link to="/сontacts-fields"> Fields </Link>
                     </li>
                     <li>
-                        <Link to="/сontacts-manage-scoring ">Manage Scoring </Link>
+                        <Link to="/сontacts-manage-scoring">Manage Scoring </Link>
                     </li>
                     <li>
                         <Link to="/сontacts-manage-exclusions">Manage Exclusions</Link>
