@@ -23,6 +23,7 @@ import Fields from "./components/contactsMenu/fields/Fields";
 import ManageScoring from "./components/contactsMenu/manageScoring/ManageScoring";
 import ManageExclusions from "./components/contactsMenu/manageExclusions/ManageExclusions";
 import DatabaseSync from "./components/contactsMenu/databaseSync/DatabaseSync";
+import Exports from "./components/contactsMenu/exports/Exports";
 
 const App: React.FC = () => {
     return (
@@ -51,6 +52,8 @@ const App: React.FC = () => {
                 <Route path="/сontacts-manage-scoring" element={<ManageScoring/>} />
                 <Route path="/сontacts-manage-exclusions" element={<ManageExclusions/>} />
                 <Route path="/сontacts-database-sync" element={<DatabaseSync/>} />
+                <Route path="/settings-exports" element={<Exports/>} />
+                <Route path="/settings-reports" element={<Reports/>} />
             </Routes>
         </HashRouter>
     );
