@@ -19,9 +19,6 @@ const Header: React.FC = () => {
                         <Link to="/activecampaign-page">Детально про <span>ActiveCampaign</span> </Link>
                     </li>
                     <li>
-                        <a href="https://t.me/Oksana_Nevolina"target="_blank">Написати в Telegram</a>
-                    </li>
-                    <li>
                         <a href="https://www.activecampaign.com/?_r=5VFCFKZZ">Зареєтруватися в ActiveCampaign </a>
                     </li>
                     <li>
